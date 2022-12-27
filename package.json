@@ -1,0 +1,19 @@
+{
+  "name": "environment-test",
+  "version": "1.0.0",
+  "description": "App where I hope to use an environment related API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jennifer-464/environment-test.git"
+  },
+  "author": "Jennifer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jennifer-464/environment-test/issues"
+  },
+  "homepage": "https://github.com/Jennifer-464/environment-test#readme"
+}
