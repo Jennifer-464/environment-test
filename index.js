@@ -7,7 +7,15 @@ app.use(express.static('public'));
 
 
 router.get('/',function(req,res){
-    res.render(path.join(__dirname+'/views/home.ejs'));
+    res.render(path.join(__dirname+'/home.ejs'));
+});
+
+router.get('/home.ejs',function(req,res){
+    res.render(path.join(__dirname+'/home.ejs'));
+});
+
+router.get('/about.ejs',function(req,res){
+    res.render(path.join(__dirname+'/views/about.ejs'));
 });
 
 app.use('/', router);
